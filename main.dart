@@ -26,7 +26,7 @@ void main() {
 
   //Bai 4
   print('====Bai 4====');
-  print(totalNumber('123123123123123123', '124124214928349237468237234'));
+  print(totalNumber('9223372036854775807', '9223372036854775807'));
 }
 
 //Bai 1
@@ -81,5 +81,4 @@ String totalNumber(String numberA, String numberB) {
   double b = double.parse(numberB);
   var result = a + b;
   return result.toString();
-  // return numberA + numberB;
 }
